@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>ImoJack</title>
+	<link rel="icon" type="image/png" href="{{url_for('static', filename='logo.png')}}">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<link rel="stylesheet" href="{{url_for('static', filename='assets/css/main.css')}}" />
+	<link rel="stylesheet" href="../static/assets/css/main.css" />
+
+	<!-- Android-->
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="theme-color" content="black">
+
+	<!-- IOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+</head>
+
+<body>
+	<!-- Logo -->
+	<img src="{{url_for('static', filename='logo.png')}}" class="logo" alt="" />
+
+	<form action="" method="post">
+		<input type="url" name="url" id="">
+		<button type="submit">Jack!</button>
+	</form>
+</body>
+
+</html>
